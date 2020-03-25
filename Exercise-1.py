@@ -1,0 +1,11 @@
+import tkinter as tk
+root = tk.Tk()
+root.geometry('350x150')
+root.title('Exercise-1')
+label_1 = tk.Label(root, text='Leo Xiang', font=("arial", 20))
+label_1.pack()
+label_2 = tk.Label(root, text='56 thimble berryway', font=("arial", 20))
+label_2.pack()
+label_3 = tk.Label(root, text='Toronto ON M2H 3K7', font=("arial", 20))
+label_3.pack()
+root.mainloop()
